@@ -1,0 +1,72 @@
+
+body{
+  margin:0;  
+  padding:0;
+  background-color: white
+
+}
+.outer{
+   text-align: center;
+   padding:20px;
+}
+.content{
+   max-width:1000px;
+   width: 100%;
+   height:95vh;
+   display: inline-block;
+   text-align:center;
+   padding:10px;
+   font-family: sans-serif;
+   font-size:16px;
+   color:#202857;
+}
+a{
+  color:#202857;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:50px;
+}
+
+a:hover {
+  color: white;  
+ }
+  a:active {
+  color:#CCC;
+}
+.navbar{
+  height: 80px;
+   background-color: #73B3E7;
+	margin-top: 0px;
+}
+
+.navbuttons{
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 22px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:space-between;
+	
+}
+
+.logo{
+	max-width: 180px;
+	margin-top: -20px;
+	margin-right: auto;
+	padding-left: 20px;
+	
+}
+
+.toolbar{
+    justify-content: center;
+	margin-top: 8px;
+}
+  
+.searchimg{
+	max-width: 40px;
+	padding-right: 30px;
+	margin-top: -1px;
+	
+}
