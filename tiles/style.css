@@ -76,7 +76,7 @@ body {
 .tileimg1 {
 	background-image: url("img/swiss.jpg");
 	height:1000px;
-	margin: 0px 0 -70px 0;
+	margin: 0;
 	background-size:contain;
 	background-repeat:no-repeat;
 	
@@ -85,7 +85,7 @@ body {
 .tileimg2 {
 	background-image: url("img/maine.jpg");
 	height:1000px;
-	margin: -72px 0;
+	margin: 0;
 	background-size:contain;
 	background-repeat:no-repeat;
 }
