@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+	font-family: "bonnie", sans-serif;
+	color: #fff;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+.outer {
+	background-color: #9DD0F2;
+}
+
+.page {
+	width: 90%;
+	margin: 0px;
+	height: 800px;
+	padding-top: 20px;
+	text-align: center;
+	background-color: #9DD0F2;
+}
+.topofpage {
+	height: 80px;
+	width: 100%;
+	background-color: #204A6F;
+	display: flex;
+	flex-direction: row;
+	justify-content: fle;
+	align-items: center;
+}
+
+
+.navbar {
+  display: flex;
+  width: 80%;
+  justify-content:center;
+  align-items: center;
+  height: 100%;
+  font-weight: 600;
+}
+
+.navbar ul {
+	
+}
+
+.navbar ul li {
+list-style-type: none;
+display: inline-block;
+	
+}
+
+.navbar ul li a {
+padding: 8px 18px;
+margin: 8px;
+}
+
+.navbar ul li a:hover {
+	background-color:#16324A;
+    border-radius: 40px;
+
+}
+
+.logoimg {
+	height: 40px;
+	margin-left: 40px;
+	margin-right: auto;
+
+}
+
+.icons {
+	width: 40px;
+	padding: 8px 9px 3px;
+}
+
+.allicons {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	margin-right: 40px;
+}
+
+.allicons a:hover {
+	background-color:#16324A;
+    border-radius: 40px;
+
+	
+}
+
+.tile{
+	margin: 0;
+	width: 100%;
+	height: 900px;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.tileimg1 {
+	background-image: url("img/swiss.jpg");
+}
+
+.tileimg2 {
+	background-image: url("img/maine.jpg");
+}
+
+.tileimg3 {
+	background-image: url("img/scotland.jpg");
+}
+
+.textbox{
+	background-color: #fff;
+	color: #204A6F;
+    width:20%;
+	padding: 5% 5%;
+    font-family:"bonnie", sans-serif;
+    font-weight:500;
+    text-align:center;
+	opacity: .95;
+}
+
+#menu{
+display: none;
+}
+
+#menuoverlay{
+display:none;
+}
+
+
+
+@media screen and (max-width:850px){
+	
+	#menu{
+		display: inline-block;
+		margin-right: 20px;
+		margin-left: auto;
+	}
+	
+	#menu img{
+		width: 40px;
+		padding:10px;
+		cursor: pointer;
+	}
+	
+	.navbar{
+		display:none;
+	}
+	
+	.allicons{
+		display: none;
+	}
+	
+	#menuoverlay{
+		position: absolute;
+		top:0px;
+		background-color: #204A6F;
+		width: 100%;
+		height: 1000px;
+		text-align: center;
+		
+	}
+	
+	.tile{
+		height: 400px;
+	}
+	
+	#close{
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		font-size: 60px;
+		cursor: pointer;
+	}
+	
+	.menuitems{
+  		align-items: center;
+  		font-weight: 600;
+		width: 100%;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		
+	}
+	
+	.menuitems a:hover{
+		background-color:#16324A;
+   		border-radius: 10px;
+		padding: 20px 60px;
+	}
+}
